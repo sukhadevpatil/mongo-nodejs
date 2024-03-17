@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 async function main() {
   const uri =
-    "mongodb+srv://admin1:admin1@cluster0.vigqsrv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+    "mongodb+srv://****:****@cluster0.vigqsrv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
   const client = new MongoClient(uri);
   try {
     const database = client.db("movie-api-db");
